@@ -1,5 +1,114 @@
 /*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+//Header background - #FFDBAA
+//button - #805215
+//Header Text - #553100
+//Main background - #D4A76A*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #553100;
+}
+
+header {
+    background-color: #FFDBAA;
+    display: inline-block;
+    width: 100%;
+    padding: auto;
+    padding-bottom: 20px;
+  }
+
+  .nav {
+      text-align: right;
+  }
+
+  .hdrbutton {
+  width: 10%;
+  height: 5%;
+  border: none;
+  color: #FFFFFF;
+  background-color: #805215;
+  }
+
+ 
+body {
+    background-color: #d4a76a;
+    margin: 0;
+    margin-top: 0;
+}
+
+
+main {
+    text-align: center
+}
+
+.offers {
+    background-color: #FFFFFF;
+    inline-size: 15em;
+    display: inline-block;
+    padding: .5em;
+    margin: 1% 3%;
+    box-shadow: 1px 5px 5px #000000;
+  }
+
+  .offer-name {
+    font-weight: 700;
+    font-size: 5;
+    text-align: center;
+    color: black
+  }
+
+  .offer-info {
+    font-weight: 700;
+    font-size: 1;
+    text-align: center;
+    color: black;
+    }
+
+  .button {
+    width:12em;
+    height: 3em;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 100%;
+    background-color: #805215;
+    padding: 1em;
+    display: inline-block;
+    border: .2em;
+    text-align: center;
+     }
+
+     footer {
+        text-align: center
+    }
+
+  .us {
+    background-color: #FFFFFF;
+    inline-size: 15em;
+    display: inline-block;
+    padding: .5em;
+    margin: 1% 3%;
+    box-shadow: 1px 5px 5px #000000;
+    text-align: center;
+    width: 70%
+  }
+
+  .us-name {
+    font-weight: 700;
+    font-size: 5;
+    text-align: center;
+    color: black
+  }
+
+  .us-info {
+    font-weight: 700;
+    font-size: 1;
+    text-align: center;
+    color: black;
+    }
+
+
+ 
+
+
+
